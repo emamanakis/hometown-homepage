@@ -44,6 +44,7 @@ body {
 
 .main-info {
     background: linear-gradient( #251F47, #260F26);
+    background-size: cover;
     padding-bottom: 150px;
 }
 
