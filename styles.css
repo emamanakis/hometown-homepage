@@ -1,0 +1,103 @@
+/* font-family: 'Tillana', cursive; */
+/* Dark Purple #260F26 */
+/* Space Cadet #251F47*/
+/* Purple Navy #404E7C*/
+/* Shiny Shamrock #71B48D*/
+/* Eton Blue (light greenish??) #86CB92*/
+body {
+    font-family: 'Tillana', cursive;
+    text-align : center;
+    margin: 0px;
+}
+
+#hero {
+    background-image: url("/images/old-tucson.jpg");
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    height: 450px;
+    margin-bottom: 0px;
+}
+
+#page-title {
+    background: #404E7C;
+    margin-top: 150px;
+    border-radius: 10px;
+    padding: 3px 6px;
+}
+
+#page-description {
+    background: #404E7C;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 3px 6px;
+}
+
+.activities {
+    color: #86CB92;
+    margin-bottom: 10px;
+}
+
+.main-info {
+    background: linear-gradient( #251F47, #260F26);
+    padding-bottom: 150px;
+}
+
+#section-header-1 {
+    margin: 0px auto 75px auto;
+    padding-top: 15px;
+}
+
+.activity-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #260F26;
+    border-radius: 50%;
+}
+
+.activity-info-parts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    margin: 10px 10px;
+}
+
+#info-box {
+    width: 225px;
+    min-height: 450px;
+}
+
+.guide-info {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    padding: 5px 20px;
+    background-color: #404E7C;
+    width: 500px;
+    height: 300px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#guide-picture {
+    width: 150px;
+    max-height: 225px;
+    border-radius: 10px;
+}
+
+#content-quote {
+    font-size: 14px;
+}

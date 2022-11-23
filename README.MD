@@ -1,0 +1,1 @@
+This project is a demonstration of flex boxes, common sense, and picture usage in a webpage.
