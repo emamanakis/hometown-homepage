@@ -14,6 +14,7 @@ body {
     font-family: 'Tillana', cursive;
     text-align : center;
     margin: 0px;
+    overscroll-behavior: none;
 }
 
 .hero {
