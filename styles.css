@@ -5,6 +5,8 @@
 /* Shiny Shamrock #71B48D*/
 /* Eton Blue (light greenish??) #86CB92*/
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -35,7 +37,7 @@ body {
 
 .page-description {
     background: #404E7C;
-    margin: 50px;
+    margin: 50px auto auto auto;
     border-radius: 10px;
     padding: 3px 6px;
 }
