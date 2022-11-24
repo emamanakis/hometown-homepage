@@ -4,6 +4,10 @@
 /* Purple Navy #404E7C*/
 /* Shiny Shamrock #71B48D*/
 /* Eton Blue (light greenish??) #86CB92*/
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Tillana', cursive;
     text-align : center;
@@ -16,8 +20,6 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     color: #ffffff;
     height: 450px;
     margin-bottom: 0px;
@@ -28,11 +30,12 @@ body {
     margin-top: 150px;
     border-radius: 10px;
     padding: 3px 6px;
+    margin: 200px auto auto auto;
 }
 
 .page-description {
     background: #404E7C;
-    margin-top: 50px;
+    margin: 50px;
     border-radius: 10px;
     padding: 3px 6px;
 }
